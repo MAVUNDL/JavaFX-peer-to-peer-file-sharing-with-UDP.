@@ -207,7 +207,7 @@ public class LeecherStage
        // layer list view
        layout.setRight(layerList);
        layout.setPadding(new Insets(20));
-       return layout;
+       return layout; // return the layout
     }
 
     /**
