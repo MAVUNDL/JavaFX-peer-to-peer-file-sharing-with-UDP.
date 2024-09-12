@@ -1,6 +1,9 @@
 ## Peer-to-Peer File Sharing System
 Welcome to my Peer-to-Peer File Sharing System project. This project is inspired by popular peer-to-peer applications like BitTorrent and Direct Connect, where users can share files directly between peers without relying on a central server. In this project, I developed a system that allows a client to either send or receive files in two different modes: Seeder or Leecher.
 
+![image](https://github.com/user-attachments/assets/31464a9b-b2aa-4ce5-a1d1-ea4e4e3c97ff)
+
+
 ## Project Overview
 In this application, a client can operate in one of two modes: Seeder Mode or Leecher Mode. When the client starts, it prompts the user to select which mode they want to operate in. Based on the selection, the client can either share files (Seeder mode) or request and download files (Leecher mode) from another peer.
 
@@ -9,6 +12,9 @@ This system uses UDP (User Datagram Protocol) for communication, making it light
 ## Seeder Mode
 In Seeder mode, the client is responsible for sharing files with other peers. Here's how it works:
 
+![image](https://github.com/user-attachments/assets/159b2cb7-fa89-4707-891a-77717040fe59)
+
+
 - I have implemented a feature that allows the user to add files to a list of available files.
 -  The user can choose files using a FileChooser and see them displayed in a list.
 -  The Seeder can send a numbered list of available files to any peer that connects to it using the "LIST" command.
@@ -16,6 +22,9 @@ In Seeder mode, the client is responsible for sharing files with other peers. He
 
 ## Leecher Mode
 In Leecher mode, the client connects to a Seeder to download files. Here's the functionality in this mode:
+
+![image](https://github.com/user-attachments/assets/2b148949-5512-4492-ac5b-6c0f67541b03)
+
 
 - The user enters the host address and port number of the Seeder to connect.
 - I've used TextFields to capture this information, along with a Connect button.
